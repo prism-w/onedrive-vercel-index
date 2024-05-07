@@ -1,6 +1,6 @@
 /**
  * This file contains the configuration used for customising the website, such as the folder to share,
- * the title, used Google fonts, site icons, contact info, etc.
+ * the title, used Google fonts, site icons, contact info, etc. 
  */
 module.exports = {
   // This is what we use to identify who you are when you are initialising the website for the first time.
@@ -14,10 +14,10 @@ module.exports = {
   icon: '/icons/128.png',
 
   // Prefix for KV Storage
-  kvPrefix: process.env.KV_PREFIX || '',
+  kvPrefix: process.env.KV_PREFIX || '', 
 
   // The name of your website. Present alongside your icon.
-  title: "Spencer's OneDrive",
+  title: "萌新工具箱", 
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
