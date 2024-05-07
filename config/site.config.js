@@ -7,10 +7,10 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'spencer@spwoo.onmicrosoft.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'prism@yousheng007.onmicrosoft.com', 
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
-  // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
+  // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public. 
   icon: '/icons/128.png',
 
   // Prefix for KV Storage
@@ -22,7 +22,7 @@ module.exports = {
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
 
-  // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
+  // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported. 
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
   maxItems: 100,
 
